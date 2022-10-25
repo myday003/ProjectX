@@ -11,5 +11,9 @@ public class PlayerHP : MonoBehaviour
             HP = maxHP; 
         }
     }
+    public void TakeDamage(float Damage)
+    {
+        HP -= Damage;
+    }
 }
      
